@@ -4,7 +4,8 @@ Something about HTTPS. 学习HTTPS总结。
 ####与HTTP的不同
 1. HTTP的URL以http://开头，默认端口80；HTTPS的URL以https://开头，默认端口443。
 2. HTTPS协议栈。
-	![HTTPS协议栈](https://raw.githubusercontent.com/KaiZhang890/GoHTTPS/master/HTTPS协议栈.jpg)
+
+![HTTPS协议栈](https://raw.githubusercontent.com/KaiZhang890/GoHTTPS/master/HTTPS协议栈.jpg)
 	
 ####HTTP的问题
 HTTP协议传输的数据都是明文的。三大风险：
@@ -100,6 +101,9 @@ int main() {
 * verisign公司的证书一般一年几千到几万不等。
 * 用户访问速度。
 
+### License
+[WTFPL (Do What The Fuck You Want To Public License)](http://www.wtfpl.net)
+
 ####参考
 http://www.guokr.com/post/114121/
 
@@ -108,6 +112,3 @@ http://blog.jobbole.com/86660/
 http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html
 
 http://www.codedata.com.tw/social-coding/rsa-c-implementation/
-
-### License
-[WTFPL (Do What The Fuck You Want To Public License)](http://www.wtfpl.net)
