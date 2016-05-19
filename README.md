@@ -1,5 +1,5 @@
 # GoHTTPS
-Something about HTTPS. 学习HTTPS总结。
+Something about HTTPS. HTTPS学习总结。
 
 ####与HTTP的不同
 1. HTTP的URL以http://开头，默认端口80；HTTPS的URL以https://开头，默认端口443。
