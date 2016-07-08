@@ -50,7 +50,7 @@ int main() {
     // p=2213,q=2663 (5893219, 4723) (5893219, 52363)
     
     // 要加密的msg需小于n
-    uint64_t msg = 5893220;
+    uint64_t msg = 200;
     uint64_t encodeMsg = power(msg, n, e);
     uint64_t decodeMsg = power(encodeMsg, n, d);
     printf("加密前：%lld 加密后：%lld 解密后：%lld\n", msg, encodeMsg, decodeMsg);
